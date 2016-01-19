@@ -34,7 +34,7 @@ public:
     typedef adjacency_list<vecS, vecS, undirectedS,uint8_t> Graph;
     typedef boost::graph_traits<Graph>::vertex_descriptor vertex_t;
     typedef boost::graph_traits<Graph>::edge_descriptor edge_t;
-    typedef boost::graph_traits<AdjacencyList>::adjacency_iterator adjacency_iterator;
+    typedef boost::graph_traits<Graph>::adjacency_iterator adjacency_iterator;
 };
 
 #endif // QSTATEPOTTS_H
